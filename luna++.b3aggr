@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Luna" buildRoot="${user.home}/buildtools/luna" packedStrategy="SKIP" type="R" allowLegacySites="false">
+  <validationSets label="Luna">
+    <contributions label="Luna">
+      <repositories location="http://download.eclipse.org/releases/luna/201409261001">
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.rap.feature.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.rap.sdk.feature.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.rap.examples.feature.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.rap.equinox.target.feature.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.emf.rap.sdk.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.target.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.basic.target.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.source.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.testing.feature.group"/>
+        <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.scout.rt.rap.testing.source.feature.group"/>
+      </repositories>
+      <repositories location="http://download.eclipse.org/tools/buckminster/updates-4.4"/>
+      <repositories location="http://community.polarion.com/projects/subversive/download/eclipse/4.0/luna-site/"/>
+      <repositories location="http://subclipse.tigris.org/update_1.8.x"/>
+    </contributions>
+  </validationSets>
+  <validationSets label="Luna X">
+    <contributions label="Luna X">
+      <repositories location="http://download.eclipse.org/releases/luna/201409261001">
+        <features name="org.eclipse.rap.feature.feature.group"/>
+        <features name="org.eclipse.rap.sdk.feature.feature.group"/>
+        <features name="org.eclipse.rap.examples.feature.feature.group"/>
+        <features name="org.eclipse.rap.equinox.target.feature.feature.group"/>
+        <features name="org.eclipse.emf.rap.sdk.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.target.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.basic.target.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.source.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.testing.feature.group"/>
+        <features name="org.eclipse.scout.rt.rap.testing.source.feature.group"/>
+      </repositories>
+    </contributions>
+  </validationSets>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
+  <configurations architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa"/>
+  <configurations/>
+</aggregator:Aggregation>
